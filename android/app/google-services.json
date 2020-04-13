@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "164302028468",
+    "firebase_url": "https://ng-complete-guide-75fde.firebaseio.com",
+    "project_id": "ng-complete-guide-75fde",
+    "storage_bucket": "ng-complete-guide-75fde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164302028468:android:b36b26bbd1473b54e8a1e1",
+        "android_client_info": {
+          "package_name": "com.victorhigaki.brew_crew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164302028468-cru6spe6recu4p0sj9m8mtf1hh7ha9hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzO-P1dP5uRHCBr059ehjkD8DeKLLlkmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164302028468-cru6spe6recu4p0sj9m8mtf1hh7ha9hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
