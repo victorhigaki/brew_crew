@@ -20,5 +20,3 @@ class _BrewListState extends State<BrewList> {
     );
   }
 }
-
-class Brews {}

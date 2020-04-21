@@ -45,8 +45,7 @@ class _SettingsFormState extends State<SettingsForm> {
                         val.isEmpty ? 'Please enter a name' : null,
                     onChanged: (val) => setState(() => _currentName = val),
                   ),
-                  SizedBox(height: 20.0),
-                  // dropdown
+                  SizedBox(height: 10.0),
                   DropdownButtonFormField(
                     decoration: textInputDecoration,
                     value: _currentSugars ?? userData.sugars,
@@ -58,6 +57,7 @@ class _SettingsFormState extends State<SettingsForm> {
                     }).toList(),
                     onChanged: (val) => setState(() => _currentSugars = val),
                   ),
+                  SizedBox(height: 10.0),
                   Slider(
                     value: (_currentStrength ?? userData.strength).toDouble(),
                     activeColor:
@@ -70,7 +70,6 @@ class _SettingsFormState extends State<SettingsForm> {
                     onChanged: (val) =>
                         setState(() => _currentStrength = val.round()),
                   ),
-                  // slider
                   RaisedButton(
                       color: Colors.pink[400],
                       child: Text(

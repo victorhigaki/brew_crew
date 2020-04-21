@@ -8,7 +8,7 @@ class BrewTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(top: 8.0),
+      padding: const EdgeInsets.only(top: 8.0),
       child: Card(
         margin: EdgeInsets.fromLTRB(20.0, 6.0, 20.0, 0.0),
         child: ListTile(
@@ -18,7 +18,7 @@ class BrewTile extends StatelessWidget {
             backgroundImage: AssetImage('assets/coffee_icon.png'),
           ),
           title: Text(brew.name),
-          subtitle: Text('Takes ${brew.sugars} sgar(s)'),
+          subtitle: Text('Takes ${brew.sugars} sugar(s)'),
         ),
       ),
     );
